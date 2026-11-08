@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+*.tmp
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Reference screenshots of the original app are for comparison only.
+# They never ship and should not be committed to a public repo.
+replica/screens/*
+!replica/screens/.gitkeep
+replica/diffs/*
+!replica/diffs/.gitkeep
